@@ -1,0 +1,101 @@
+/*body{
+  display:flex;
+  height:100vh;
+  width:100vw;
+  flex-direction:column;
+}
+main{
+  height:80vh;
+  overflow:scroll;
+}*/
+
+html,body {
+  margin: 0;
+  padding: 0;
+  background-image: url("http://www.dog-ma.com/testsite/wp-content/uploads/2015/08/patternbackground.jpg");
+}
+
+@media screen and (min-width: 0px) and (max-width:700px) {
+  footer{
+     display: none;
+  }}
+@media screen and (min-width: 701px) {
+  footer{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content:space-around;
+      background-color:rgb(160, 156, 181);
+      border-top: 1px solid black;
+      width: 100%;
+      height: 20vh;
+      align-items:center;
+  }}
+
+/*@media screen and (max-width:800px) {.about{overflow:scroll;}}*/
+
+.flex-container {
+  display:flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction:column;
+}
+
+header {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color:rgb(160, 156, 181);
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 20vh;
+  align-items:center;
+}
+
+h1{
+  text-align:center;
+  font-style: italic;
+  font-size: 30px;
+  color:purple;
+}
+
+main {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  align-items:center;
+}
+img {
+  border: 1px solid black;
+  max-width: 350px;
+  height: 125px;
+  /*margin:0 auto;
+  max-width: 100px;*/
+}
+.row{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+.column{
+  /*flex:33.333%;*/
+  padding:10px;
+}
+.about {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+}
+
+.item {
+  display:flex;
+  flex-direction: column;
+  /*flex-wrap: wrap;*/
+  justify-content:center;
+  width: 25vw;
+  height:100%;
+  align-items:center;
+}
+
